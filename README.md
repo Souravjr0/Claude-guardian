@@ -33,6 +33,18 @@ Built for researchers, developers, and AI safety engineers who want a practical 
 	<img src="assets/architecture.svg" alt="ClaudeGuardian architecture diagram" width="900" />
 </p>
 
+## Demo
+
+<p align="center">
+	<img src="assets/demo.gif" alt="ClaudeGuardian CLI and dashboard demo" width="900" />
+</p>
+
+## Dashboard Snapshot
+
+<p align="center">
+	<img src="assets/dashboard-screenshot.svg" alt="ClaudeGuardian dashboard snapshot" width="900" />
+</p>
+
 ## Quickstart (60 Seconds)
 
 ```bash
@@ -109,3 +121,5 @@ See full roadmap in `ROADMAP.md`.
 ## License
 
 MIT
+
+See `LICENSE` for full text.
