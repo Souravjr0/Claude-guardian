@@ -36,8 +36,10 @@ Built for researchers, developers, and AI safety engineers who want a practical 
 ## Demo
 
 <p align="center">
-	<img src="assets/demo.gif" alt="ClaudeGuardian CLI and dashboard demo" width="900" />
+	<a href="demo/index.html"><img src="assets/demo-showcase.svg" alt="ClaudeGuardian interactive demo preview" width="900" /></a>
 </p>
+
+Open the interactive demo page at `demo/index.html`.
 
 ## Dashboard Snapshot
 

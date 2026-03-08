@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ClaudeGuardian Demo Experience</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;700&family=IBM+Plex+Mono:wght@400;500&family=Cormorant+Garamond:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="bg-grid"></div>
+    <div class="blob blob-a"></div>
+    <div class="blob blob-b"></div>
+
+    <main class="page">
+      <header class="hero reveal">
+        <p class="kicker">AI SAFETY EVALUATION TOOLKIT</p>
+        <h1>ClaudeGuardian Demo Command Center</h1>
+        <p class="subtitle">
+          A cinematic walkthrough of prompt-injection checks, safety scoring, and
+          dashboard telemetry.
+        </p>
+        <div class="hero-actions">
+          <button id="run-demo" class="btn btn-primary">Run Simulation</button>
+          <a class="btn btn-ghost" href="../README.md">Back to README</a>
+        </div>
+      </header>
+
+      <section class="panels">
+        <article class="panel terminal reveal" style="--d: 0.06s">
+          <div class="panel-head">
+            <span class="dot red"></span>
+            <span class="dot amber"></span>
+            <span class="dot green"></span>
+            <span class="title">runtime/claudeguardian.log</span>
+          </div>
+          <pre id="terminal-output" class="terminal-body"></pre>
+        </article>
+
+        <article class="panel metrics reveal" style="--d: 0.12s">
+          <div class="panel-head simple">
+            <span class="title">Safety Metrics</span>
+          </div>
+          <div class="metric-grid">
+            <div class="metric-card">
+              <p>Prompt Coverage</p>
+              <h3 id="coverage">0%</h3>
+            </div>
+            <div class="metric-card">
+              <p>Unsafe Flags</p>
+              <h3 id="flags">0</h3>
+            </div>
+            <div class="metric-card">
+              <p>Safety Score</p>
+              <h3 id="score">0.00 / 10</h3>
+            </div>
+          </div>
+          <div class="bars">
+            <div class="bar-row"><span>Injection Defense</span><div class="bar"><i id="b1"></i></div></div>
+            <div class="bar-row"><span>Hallucination Guard</span><div class="bar"><i id="b2"></i></div></div>
+            <div class="bar-row"><span>Response Compliance</span><div class="bar"><i id="b3"></i></div></div>
+          </div>
+        </article>
+      </section>
+
+      <section class="timeline reveal" style="--d: 0.18s">
+        <h2>Evaluation Timeline</h2>
+        <div class="steps">
+          <div class="step active"><span>1</span> Load jailbreak corpus</div>
+          <div class="step"><span>2</span> Dispatch prompts to model</div>
+          <div class="step"><span>3</span> Analyze response safety</div>
+          <div class="step"><span>4</span> Compute final score</div>
+        </div>
+      </section>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>
