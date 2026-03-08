@@ -1,6 +1,7 @@
 # ClaudeGuardian
 
 [![CI](https://github.com/Souravjr0/Claude-guardian/actions/workflows/python-ci.yml/badge.svg)](https://github.com/Souravjr0/Claude-guardian/actions/workflows/python-ci.yml)
+[![Pages](https://github.com/Souravjr0/Claude-guardian/actions/workflows/pages.yml/badge.svg)](https://github.com/Souravjr0/Claude-guardian/actions/workflows/pages.yml)
 [![Python](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
@@ -40,6 +41,8 @@ Built for researchers, developers, and AI safety engineers who want a practical 
 </p>
 
 Open the interactive demo page at `demo/index.html`.
+
+Live demo: `https://souravjr0.github.io/Claude-guardian/`
 
 ## Dashboard Snapshot
 
