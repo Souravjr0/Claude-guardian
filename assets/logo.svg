@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="180" viewBox="0 0 720 180">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0B3D2E" />
+      <stop offset="100%" stop-color="#167A5D" />
+    </linearGradient>
+  </defs>
+  <rect width="720" height="180" rx="18" fill="url(#g)" />
+  <g fill="#FFFFFF" font-family="Georgia, Times New Roman, serif">
+    <text x="36" y="78" font-size="44" font-weight="700">ClaudeGuardian</text>
+    <text x="36" y="120" font-size="22">AI Safety Evaluation Toolkit</text>
+  </g>
+  <circle cx="660" cy="90" r="30" fill="none" stroke="#FFFFFF" stroke-width="6" />
+  <path d="M660 64 L676 74 L676 99 C676 112 668 124 660 128 C652 124 644 112 644 99 L644 74 Z" fill="#FFFFFF" opacity="0.9" />
+</svg>

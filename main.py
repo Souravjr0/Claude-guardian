@@ -1,6 +1,7 @@
-from redteam.injection_tests import run_injection_tests
-from evaluation.safety_score import calculate_score
 from rich import print
+
+from evaluation.safety_score import calculate_score
+from redteam.injection_tests import run_injection_tests
 
 
 def main():

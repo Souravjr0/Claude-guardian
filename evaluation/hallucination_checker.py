@@ -3,7 +3,7 @@ def detect_hallucination(response):
     known_fake_phrases = [
         "according to secret sources",
         "undocumented study",
-        "unknown research"
+        "unknown research",
     ]
 
     for phrase in known_fake_phrases:
